@@ -5,7 +5,7 @@ $(function() {
     dataType: 'jsonp',
     success: function(response) {
       
-      var $courses = $('#response.courses.completed');
+      courses = response.courses.completed;
       var $badges = $('#badges');
       
 
@@ -29,6 +29,7 @@ $(function() {
       		'class': 'btn btn-primary',
       		text: 'See course'
       	}).appendTo($course);
+      }
     }
   });
 

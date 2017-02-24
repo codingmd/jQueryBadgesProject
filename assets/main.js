@@ -7,7 +7,7 @@ $(function() {
       
       var $courses = $('#response.courses.completed');
       var $badges = $('#badges');
-      var $url = $('#url');
+      
 
       courses.forEach(function(course) {
 
@@ -19,10 +19,15 @@ $(function() {
       		text: course.title
       	}).appendTo($course);
 
-      	$('<img src="$badges" />').appendTo($course);
+      	$('<img />', {
+      		src: course.badge 
+      	})appendTo($course);
 
-      	$('<a href="$url" target="_blank" class="btn btn-primary"></a>', {
-      		text: "See course"
+      	$('<a />', {
+      		href= course.url,
+      		target: '_blank',
+      		'class': 'btn btn-primary',
+      		text: 'See course'
       	}).appendTo($course);
       })
 

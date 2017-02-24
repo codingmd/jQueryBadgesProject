@@ -29,8 +29,6 @@ $(function() {
       		'class': 'btn btn-primary',
       		text: 'See course'
       	}).appendTo($course);
-      })
-
     }
   });
 

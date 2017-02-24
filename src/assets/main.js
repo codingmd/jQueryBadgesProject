@@ -9,7 +9,7 @@ $(function() {
       
       courses = response.courses.completed;
       progress = response.courses.in_progress;
-      var $completed = $('#completed');
+      var $badges = $('#badges');
       var $progress = $('#progress');
       
 
@@ -17,7 +17,7 @@ $(function() {
 
       	var $course = $('<div />', {
       		'class': 'course'
-      	}).appendTo($completed);
+      	}).appendTo($badges);
 
       	$('<h3 />', {
       		text: course.title

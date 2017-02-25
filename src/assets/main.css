@@ -2,6 +2,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  background: #000000;
 }
 
 #badges, #progress, #awards {
@@ -9,7 +10,7 @@ body {
 }
 
 .course {
-  background: #F5F5F5;
+  background: #235021;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 5px #EAEAEA;
@@ -21,7 +22,7 @@ body {
 }
 
 .awards {
-  background: #F5F5F5;
+  background: #235021;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 5px #EAEAEA;
@@ -33,7 +34,14 @@ body {
 }
 
 .course h3 {
-  color: #999;
+  color: #2DBB28;
+  font-size: 1.9rem;
+  font-weight: 200;
+  min-height: 80px;;
+}
+
+.awards h3 {
+  color: #2DBB28;
   font-size: 1.9rem;
   font-weight: 200;
   min-height: 80px;;
@@ -54,6 +62,30 @@ body {
   max-width: 100%;
   width: 150px;
 }
+
 .course a {
   display: block;
+  color: #08E700;
+  background-color: #1E311D;
+  border-color: #000000;
 }
+
+.course a:hover {
+  color: yellow;
+  background-color: #08E700;
+  border-color: #000000;
+}
+
+.course a:visited {
+  color: #2DBB28;
+  background-color: #387A36;
+  border-color: #000000;
+}
+h1, h2 {
+  color: #08E700;
+}
+
+btn-primary {
+  color: #2DBB28;
+}
+

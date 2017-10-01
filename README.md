@@ -1,3 +1,5 @@
+My Project GitHub Pages URL https://codingmd.github.io/jQueryBadgesProject/
+
 # Use jQuery to Fetch and Show Code School Badges Using Ajax
 
 You’ll build a personal web page that displays the courses you’ve completed on Code School by pulling data from the Code School website.
